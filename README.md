@@ -1,6 +1,6 @@
-# Authentication in Flask
+# Authentication
 
-# QUICK Setup
+### QUICK Setup
 
 ```
 git clone https://github.com/kiminzajnr/Authentication_Flask.git
