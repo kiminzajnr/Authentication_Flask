@@ -1,5 +1,6 @@
 {% extends "base.html" %} {% block content %} {% if email %}
 <h1>Hello, {{ email }}</h1>
+<p><a href="{{ url_for('logout') }}">logout</a></p>
 {% else %}
 <h1>Hello. <a href="{{ url_for('login') }}">Log in</a>?</h1>
 {% endif %} {% endblock %}
